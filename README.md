@@ -1,6 +1,6 @@
 <style>
    a {
-      font-size: 20rem;
+      font-size: 1.5rem;
    }
 </style>
 
