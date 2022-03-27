@@ -6,6 +6,6 @@
 </font>   
 
 - [<font size=5>Discord</font>](https://discord.gg/ArBx5ydcXw)  
+- [<font size=5>Telegram</font>](https://t.me/lumorian)
 - [<font size=5>Bilibili</font>](https://space.bilibili.com/362836326?spm_id_from=333.1007.0.0)  
 - [<font size=5>Github</font>](https://github.com/Lumorian)
-- [<font size=5>Telegram</font>](https://t.me/lumorian)
