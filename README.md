@@ -2,7 +2,7 @@
 
 <font size=5>I'm Luser, a 17-year-old student.
 </font>  
-<font size=5>I'm glad you're here. If you want to for a chat with me, you can find me on these web.
+<font size=5>I'm glad you're here. If you want for a chat with me, you can find me on these sites:
 </font>   
 
 - [<font size=5>Discord</font>](https://discord.gg/ArBx5ydcXw)  
