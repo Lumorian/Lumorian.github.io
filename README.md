@@ -1,3 +1,9 @@
+<style>
+   a {
+      font-size: 5px;
+   }
+</style>
+
 # Luser Markdown Test
 
 <font size=5>I'm Luser, a 17-year-old student.</font>   
