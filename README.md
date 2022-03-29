@@ -1,6 +1,6 @@
 #Luser Markdown Test
 I'm Luser, a 17-year-old student.  
-I'm glad you're here,If you want to for a chat with me.you can find me on these web  
+I'm glad you're here. If you want for a chat with me, you can find me on these sites:  
 
 [![github](https://raw.githubusercontent.com/Lumorian/Lumorian.github.io/main/picture/github.png "title")](https://github.com/Lumorian)
 
