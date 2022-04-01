@@ -8,6 +8,18 @@
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=0e56558481a2970e47973c3a4dc478651da1ea09">
 
 <title>Luser</title>
+<script>
+  copyInnerTextOfCell = (event) => {
+    let innerText = event.target.innerText;
+    var tmpInput = document.createElement("input");
+    document.body.appendChild(tmpInput);
+    tmpInput.value = innerText;
+    tmpInput.select();
+    document.execCommand("cut"); // copy
+    tmpInput.remove();
+    alert("复制成功！" + innerText);
+  }
+</script>
 <meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="Luser Markdown Test" />
 <meta property="og:locale" content="en_US" />
@@ -162,7 +174,6 @@
       word-wrap: break-word;
       word-break: normal;
     }
-
   </style>
   <body>
 
@@ -215,11 +226,14 @@
     </h3>
     <p>
       <div id="toxid">
-        <font size="5"><b>qTox</b>&nbsp;ID:451448969853A1CFD40C93AF2859D3082CDBAF2F29C7088D8B1BDB7CD48CB2640E0D0A841854</font>
-        <br>
-        <font size="5"><b>aTox</b>&nbsp;ID:CDB39FF43172DFD6FAE5C49620EA793DAC7B3E75956B1EAC1AED576727F1810BACC0FA207F1E</font>
-        <br>
-        <font size="5"><b>uTox</b>&nbsp;ID:None</font>
+        <font size="5"><strong>qTox&nbsp;ID:</strong>
+          <p onclick="copyInnerTextOfCell(event)">451448969853A1CFD40C93AF2859D3082CDBAF2F29C7088D8B1BDB7CD48CB2640E0D0A841854</p>
+        </font>
+        <font size="5"><strong>aTox&nbsp;ID:</strong>
+          <p onclick="copyInnerTextOfCell(event)">CDB39FF43172DFD6FAE5C49620EA793DAC7B3E75956B1EAC1AED576727F1810BACC0FA207F1E</p>
+        </font>
+        <font size="5"><strong>uTox&nbsp;ID:</strong>None
+        </font>
     </p>
 </ul>
 
